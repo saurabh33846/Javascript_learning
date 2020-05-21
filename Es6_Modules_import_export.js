@@ -155,7 +155,7 @@ export default function foo() {  }
 export function bar() {  }
 export function baz() {  }
 // And its import 
-import foofn, * as hello from "world";
+import foodd, * as  from "world";
 foofn();
 hello.default();
 hello.bar();
