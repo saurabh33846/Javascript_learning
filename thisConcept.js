@@ -15,7 +15,7 @@ var bar = "bar";
 var baz = new foo();
 
 /*
- Four things happens when we call new in fornt of function, ( Constructor call say)
+ Four things happens when we call new in front of function, ( Constructor call say)
  1. A new object is created.
- 2. 
+ 2. Function is called considering this as new Object.
 */
