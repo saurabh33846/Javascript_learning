@@ -12,9 +12,9 @@ function stringify(inp, set) {
 
     if(Array.isArray(inp)) {
         let result = "[";
-        for(const key of inp) {
+        for(const value of inp) {
             vistitedSet.add(inp);
-            result = result + stringify(key, vistitedSet);
+            result = result + stringify(value, vistitedSet);
             result= result +","
         }
         result = result.slice(0, result.length-1) + "]";
