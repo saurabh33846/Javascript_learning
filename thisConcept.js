@@ -18,4 +18,6 @@ var baz = new foo();
  Four things happens when we call new in front of function, ( Constructor call say)
  1. A new object is created.
  2. Function is called considering this as new Object.
+ 3. Function.Prototype is linked as prototype of Newly created Object.
+ 4. New Object is returned.
 */
